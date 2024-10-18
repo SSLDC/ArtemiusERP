@@ -1,4 +1,4 @@
-# ProcyectoERM
+# ArtemiusERP
 
 ## Descripcion
 
@@ -36,5 +36,5 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
    Abre tu navegador y ve a `http://localhost/ProcyectoERM` para acceder a la aplicación.
 
 5. **Base de datos**:
-   - Si el proyecto utiliza una base de datos, asegúrate de importar el archivo SQL proporcionado en la carpeta del proyecto (por ejemplo, `database.sql`).
+   - Si el proyecto utiliza una base de datos, asegúrate de importar el archivo SQL proporcionado en la carpeta del proyecto (pogitejemplo, `database.sql`).
    - Configura las credenciales de la base de datos en el archivo de configuración de PHP (ejemplo: `config.php`).
