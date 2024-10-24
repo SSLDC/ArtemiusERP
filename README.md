@@ -6,10 +6,10 @@ Un ERP para empresas que buscan potenciar su marketing. Ofrece herramientas para
 analizar consumidores y automatizar campañas, maximizando el retorno de inversión y mejorando la colaboración entre equipos.
 
 ## Tecnologías utilizadas
-- **HTML**: Para la estructura del contenido, versión HTML5.
-- **CSS**: Para el diseño y estilo visual, versión CSS3.
-- **JavaScript**: Para interactividad y funcionalidad en el lado del cliente, versión ES6.
-- **PHP**: Para el procesamiento del lado del servidor y gestión de bases de datos, versión PHP 7.
+- **HTML**: Para la estructura del contenido, versión HTML5.2.
+- **CSS**: Para el diseño y estilo visual, versión CSS3 (incluyendo Flexbox y Grid).
+- **JavaScript**: Para interactividad y funcionalidad en el lado del cliente, versión ES6 (ECMAScript 2015).
+- **PHP**: Para el procesamiento del lado del servidor y gestión de bases de datos, versión PHP 7.4.
 - **MySQL**: Para la base de datos.
 - **Servidor**: Xampp.
 
