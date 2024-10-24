@@ -2,7 +2,8 @@
 
 ## Descripcion
 
-Un ERP que esta orientado a las empresas para poder potenciar su marketing.
+Un ERP para empresas que buscan potenciar su marketing. Ofrece herramientas para gestionar recursos, 
+analizar consumidores y automatizar campañas, maximizando el retorno de inversión y mejorando la colaboración entre equipos.
 
 ## Tecnologías utilizadas
 - **HTML**: Para la estructura del contenido, versión HTML5.
