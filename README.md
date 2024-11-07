@@ -16,26 +16,49 @@ analizar consumidores y automatizar campañas, maximizando el retorno de inversi
 ## Instalación
 
 Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
+- 1. Clonar el repositorio
 
-1. **Clonar el repositorio**:
-   Abre tu terminal y ejecuta:
+Abre tu terminal y ejecuta el siguiente comando para clonar el repositorio del proyecto:
 
-   ```bash
-   git clone https://github.com/usuario/ProcyectoERM.git
-   cd ProcyectoERM
+git clone https://github.com/usuario/ProcyectoERM.git
+cd ProcyectoERM
 
-2. **Requerimientos**:
-   Asegúrate de tener instalados los siguientes programas:
-   - **XAMPP**: Para ejecutar PHP y MySQL.
-   - **Navegador web**: Un navegador moderno (Chrome, Firefox, etc.).
+- 2. Requerimientos
 
-3. **Configurar el servidor local**:
-   - Coloca la carpeta del proyecto (`ProcyectoERM`) dentro de la carpeta `htdocs` de XAMPP.
-   - Inicia el servidor Apache y MySQL desde el panel de control de XAMPP.
+Asegúrate de tener instalados los siguientes programas:
 
-4. **Acceder al proyecto**:
-   Abre tu navegador y ve a `http://localhost/ProcyectoERM` para acceder a la aplicación.
+    XAMPP: Para ejecutar PHP y MySQL. Puedes descargarlo desde https://www.apachefriends.org/index.html.
+    Navegador web: Un navegador moderno como Chrome, Firefox, etc.
 
-5. **Base de datos**:
-   - Si el proyecto utiliza una base de datos, asegúrate de importar el archivo SQL proporcionado en la carpeta del proyecto (pogitejemplo, `database.sql`).
-   - Configura las credenciales de la base de datos en el archivo de configuración de PHP (ejemplo: `config.php`).
+- 3. Configurar el servidor local
+
+    Coloca la carpeta del proyecto (ProcyectoERM) dentro de la carpeta htdocs en tu instalación de XAMPP.
+        En la instalación predeterminada de XAMPP, la ruta sería algo como C:\xampp\htdocs\ProcyectoERM (en Windows) o /opt/lampp/htdocs/ProcyectoERM (en Linux/macOS).
+    Inicia el servidor Apache y MySQL desde el panel de control de XAMPP.
+
+- 4. Crear la base de datos
+
+    Abre phpMyAdmin desde tu navegador.
+    Crea una nueva base de datos llamada artemius_erp (o el nombre que prefieras).
+    Importa el archivo database.sql que se encuentra en la carpeta del proyecto (ProcyectoERM/database.sql). Esto creará las tablas necesarias en tu base de datos.
+
+- 5. Configurar las credenciales de la base de datos
+
+    Abre el archivo de configuración de PHP (config.php) en el proyecto.
+
+    Modifica las credenciales de la base de datos para que coincidan con tu configuración local. Asegúrate de que los valores de DB_HOST, DB_USERNAME, DB_PASSWORD y DB_DATABASE sean correctos. Un ejemplo de configuración podría ser:
+
+    <?php
+    define('DB_HOST', 'localhost');
+    define('DB_USERNAME', 'root');
+    define('DB_PASSWORD', '');
+    define('DB_DATABASE', 'artemius_erp');
+    ?>
+
+- 6. Acceder al proyecto
+
+Una vez configurado todo, abre tu navegador y ve a:
+
+http://localhost/ProcyectoERM
+
+Ahora deberías poder acceder a la aplicación y comenzar a utilizarla.
