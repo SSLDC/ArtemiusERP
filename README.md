@@ -57,8 +57,32 @@ Asegúrate de tener instalados los siguientes programas:
 
 6. Acceder al proyecto
 
-Una vez configurado todo, abre tu navegador y ve a:
+    Guía para Desplegar un Proyecto en XAMPP y Configurar una Base de Datos en MySQL
+Paso 1: Preparar el Entorno de Trabajo en XAMPP
 
-http://localhost/ProcyectoERM
+    Buscar la carpeta htdocs:
+        Una vez descargado e instalado XAMPP, localiza la carpeta de instalación. Generalmente, la ruta es C:\xampp.
+        Dentro de esta carpeta, encontrarás otra llamada htdocs.
 
-Ahora deberías poder acceder a la aplicación y comenzar a utilizarla.
+    Pegar el proyecto en htdocs:
+        Copia el proyecto descargado de GitHub y pégalo en la carpeta htdocs. Por ejemplo, si tu proyecto se llama "MiProyecto", debería estar en C:\xampp\htdocs\MiProyecto.
+
+Paso 2: Configurar la Base de Datos en MySQL
+
+    Ejecutar XAMPP y activar Apache y MySQL:
+        Abre la aplicación de XAMPP y haz clic en Start para iniciar el módulo MySQL y Apache.
+
+    Acceder a phpMyAdmin:
+        Una vez que MySQL esté en funcionamiento, haz clic en el botón Admin al lado del módulo MySQL en XAMPP. Esto abrirá una pestaña de phpMyAdmin en tu navegador.
+
+    Crear la base de datos:
+        En la barra lateral izquierda de phpMyAdmin, haz clic en Nueva.
+        Se abrirá un panel en la pestaña Base de datos, donde verás dos campos. Introduce el nombre de la base de datos, por ejemplo, artemus, en el primer campo.
+        No es necesario modificar el segundo campo (cotejamiento). Simplemente haz clic en el botón Crear.
+
+    Esto te llevará a la nueva base de datos llamada artemus.
+
+    Importar el archivo SQL:
+        Haz clic en la pestaña Importar en la parte superior de la página.
+        Busca la opción Archivo a importar y selecciona el archivo .sql de tu base de datos desde el explorador de archivos.
+        Una vez seleccionado, desplázate hacia abajo y haz clic en Importar para cargar la base de datos.
