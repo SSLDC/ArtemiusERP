@@ -31,59 +31,54 @@ Asegúrate de tener instalados los siguientes programas:
     XAMPP: Para ejecutar PHP y MySQL. Puedes descargarlo desde https://www.apachefriends.org/index.html.
     Navegador web: Un navegador moderno como Chrome, Firefox, etc.
 
-3. Configurar el servidor local
+# Guía para Desplegar un Proyecto en XAMPP y Configurar una Base de Datos en MySQL
+## → Descargar XAMPP: https://www.apachefriends.org/es/index.html ←
+________________________________________
 
-    Coloca la carpeta del proyecto (ProcyectoERM) dentro de la carpeta htdocs en tu instalación de XAMPP.
-        En la instalación predeterminada de XAMPP, la ruta sería algo como C:\xampp\htdocs\ProcyectoERM (en Windows) o /opt/lampp/htdocs/ProcyectoERM (en Linux/macOS).
-    Inicia el servidor Apache y MySQL desde el panel de control de XAMPP.
+Paso 1: Preparar el Entorno de Trabajo en XAMPP:
 
-4. Crear la base de datos
+  1.1 Localizar la carpeta htdocs
+  - Una vez descargado e instalado XAMPP, busca la carpeta de instalación, que normalmente se encuentra en C:\xampp.
+  - Dentro de esta carpeta, abre la subcarpeta htdocs.
 
-    Abre phpMyAdmin desde tu navegador.
-    Crea una nueva base de datos llamada artemius_erp (o el nombre que prefieras).
-    Importa el archivo database.sql que se encuentra en la carpeta del proyecto (ProcyectoERM/database.sql). Esto creará las tablas necesarias en tu base de datos.
+  1.2 Pegar el proyecto en htdocs
+  - Copia la carpeta de tu proyecto descargada de GitHub y pégala en htdocs.
+  -	Ejemplo: Si tu proyecto se llama "MiProyecto", la ruta completa será C:\xampp\htdocs\MiProyecto.
 
-5. Configurar las credenciales de la base de datos
+________________________________________
 
-    Abre el archivo de configuración de PHP (config.php) en el proyecto.
+Paso 2: Iniciar XAMPP y Acceder al Proyecto:
 
-    Modifica las credenciales de la base de datos para que coincidan con tu configuración local. Asegúrate de que los valores de DB_HOST, DB_USERNAME, DB_PASSWORD y DB_DATABASE sean correctos. Un ejemplo de configuración podría ser:
+  2.1 Iniciar los servicios de XAMPP
+  -	Abre la aplicación de XAMPP.
+  -	Haz clic en Start al lado de Apache para activar el servidor web.
+  -	Haz clic en Start al lado de MySQL para activar el servidor de base de datos.
 
-    <?php
-    define('DB_HOST', 'localhost');
-    define('DB_USERNAME', 'root');
-    define('DB_PASSWORD', '');
-    define('DB_DATABASE', 'artemius_erp');
-    ?>
+  2.2 Acceder al proyecto en tu navegador
+  -	Abre tu navegador y escribe:
+      - http://localhost/MiProyecto ( Esto te permitirá ver tu proyecto en funcionamiento )
 
-6. Acceder al proyecto
+________________________________________
 
-    Guía para Desplegar un Proyecto en XAMPP y Configurar una Base de Datos en MySQL
-Paso 1: Preparar el Entorno de Trabajo en XAMPP
+Paso 3: Configurar la Base de Datos en MySQL:
 
-    Buscar la carpeta htdocs:
-        Una vez descargado e instalado XAMPP, localiza la carpeta de instalación. Generalmente, la ruta es C:\xampp.
-        Dentro de esta carpeta, encontrarás otra llamada htdocs.
+3.1 Acceder a phpMyAdmin
+  -	Con MySQL activo, haz clic en el botón Admin junto a MySQL en XAMPP. Esto abrirá phpMyAdmin en tu navegador.
 
-    Pegar el proyecto en htdocs:
-        Copia el proyecto descargado de GitHub y pégalo en la carpeta htdocs. Por ejemplo, si tu proyecto se llama "MiProyecto", debería estar en C:\xampp\htdocs\MiProyecto.
+3.2 Crear la base de datos
+  -	En phpMyAdmin, haz clic en Nueva en la barra lateral izquierda.
+  -	Introduce el nombre de la base de datos  [ artemus ]  y haz clic en Crear.
+  -	Nota: No es necesario modificar el segundo campo.
 
-Paso 2: Configurar la Base de Datos en MySQL
+3.3 Importar el archivo SQL
+-	Una vez creada la base de datos, haz clic en la pestaña Importar.
+-	Selecciona el archivo .sql de tu base de datos en la opción Archivo a importar.
+-	Desplázate hacia abajo y haz clic en Importar para cargar el archivo.
 
-    Ejecutar XAMPP y activar Apache y MySQL:
-        Abre la aplicación de XAMPP y haz clic en Start para iniciar el módulo MySQL y Apache.
+________________________________________
+<details>
+<summary>EXTRA INFO</summary>
 
-    Acceder a phpMyAdmin:
-        Una vez que MySQL esté en funcionamiento, haz clic en el botón Admin al lado del módulo MySQL en XAMPP. Esto abrirá una pestaña de phpMyAdmin en tu navegador.
+### Done by ＡＶＫ
 
-    Crear la base de datos:
-        En la barra lateral izquierda de phpMyAdmin, haz clic en Nueva.
-        Se abrirá un panel en la pestaña Base de datos, donde verás dos campos. Introduce el nombre de la base de datos, por ejemplo, artemus, en el primer campo.
-        No es necesario modificar el segundo campo (cotejamiento). Simplemente haz clic en el botón Crear.
-
-    Esto te llevará a la nueva base de datos llamada artemus.
-
-    Importar el archivo SQL:
-        Haz clic en la pestaña Importar en la parte superior de la página.
-        Busca la opción Archivo a importar y selecciona el archivo .sql de tu base de datos desde el explorador de archivos.
-        Una vez seleccionado, desplázate hacia abajo y haz clic en Importar para cargar la base de datos.
+</details>
