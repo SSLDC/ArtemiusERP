@@ -1,6 +1,3 @@
-qCXJKEDN# ArtemiusERP
-qCXJKEDN# ArtemiusERP
-
 ## Descripcion
 
 Un ERP para empresas que buscan potenciar su marketing. Ofrece herramientas para gestionar recursos, 
