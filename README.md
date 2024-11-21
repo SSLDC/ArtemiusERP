@@ -27,6 +27,8 @@ Asegúrate de tener instalados los siguientes programas:
     XAMPP: Para ejecutar PHP y MySQL. Puedes descargarlo desde https://www.apachefriends.org/index.html.
     Navegador web: Un navegador moderno como Chrome, Firefox, etc.
 
+________________________________________
+
 # Guía para Desplegar un Proyecto en XAMPP y Configurar una Base de Datos en MySQL
 ## → Descargar XAMPP: https://www.apachefriends.org/es/index.html ←
 ________________________________________
