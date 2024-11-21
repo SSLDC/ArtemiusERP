@@ -1,5 +1,5 @@
 ## A cerca de ArtemiusERP
-Un ERP para empresas que buscan potenciar su marketing. Ofrece herramientas para gestionar recursos, 
+Se trata de un ERP para empresas que buscan potenciar su marketing. Ofrece herramientas para gestionar recursos, 
 analizar consumidores y automatizar campañas, maximizando el retorno de inversión y mejorando la colaboración entre equipos.
 
 ## Tecnologías utilizadas
