@@ -1,5 +1,4 @@
-## Descripcion
-
+## A cerca de ARTEMIUSERP
 Un ERP para empresas que buscan potenciar su marketing. Ofrece herramientas para gestionar recursos, 
 analizar consumidores y automatizar campañas, maximizando el retorno de inversión y mejorando la colaboración entre equipos.
 
