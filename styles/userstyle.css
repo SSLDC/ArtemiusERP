@@ -19,43 +19,39 @@
     display: flex;
     align-items: center;
   }
-
+  
   body::-webkit-scrollbar {
     display: none; /* Oculta la barra de desplazamiento */
   }
   
-  
-
-/* Sección de Frase Motivacional */
-.quote {
-background-color: black;
+  /* Sección de Frase Motivacional */
+  /* Eliminado si no es utilizado en la página de usuario */
+  /*.quote {
+    background-color: black;
     color: #fff;
     text-align: center;
     padding: 2em 1em;
-  }
+  }*/
   
-  .quote-content h3 {
+  /*.quote-content h3 {
     font-size: 1.8em;
     font-weight: 700;
     margin: 0 auto;
     max-width: 700px;
-  }
-
-  .admin-slogan{
+  }*/
+  
+  .user-slogan {
     padding: 2em 1em;
   }
-
-
-.admin-slogan h2 {
+  
+  .user-slogan h2 {
     font-size: 2em;           
     font-weight: 700;          
     text-align: center;        
     color: #fff;              
-  
   }
   
-
-  .admin-slogan p {
+  .user-slogan p {
     font-size: 1.2em;        
     font-weight: 300;         
     color: #fff;             
@@ -65,8 +61,6 @@ background-color: black;
     padding: 0.5em 0;         
   }
   
-  
-
   .container {
     display: flex;
     justify-content: space-between;
@@ -76,7 +70,7 @@ background-color: black;
   
   .logo {
     font-size: 2em;
-    background: linear-gradient(to right, #880e4f, #f44336); 
+    background: linear-gradient(to right, #1e3c72, #2a5298); 
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
   }
@@ -102,7 +96,7 @@ background-color: black;
   }
   
   .hero {
-    background: linear-gradient(to right, #880e4f, #f44336);
+    background: linear-gradient(to right, #1e3c72, #2a5298);
     color: #fff;
     text-align: center;
     padding: 4em 1em;
@@ -118,7 +112,7 @@ background-color: black;
   .services {
     padding: 4em 1em; 
     text-align: center;
-    background: linear-gradient(to right, #880e4f, #f44336);
+    background: linear-gradient(to right, #1e3c72, #2a5298);
   }
   
   .container3 {
