@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    cursor: crosshair;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #000; 
+  }
+  
+  header {
+    background: #000000;
+    padding: 1em 1em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+
+  body::-webkit-scrollbar {
+    display: none; /* Oculta la barra de desplazamiento */
+  }
+  
+  
+
+/* Sección de Frase Motivacional */
+.quote {
+background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 2em 1em;
+  }
+  
+  .quote-content h3 {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin: 0 auto;
+    max-width: 700px;
+  }
+
+  .admin-slogan{
+    padding: 2em 1em;
+  }
+
+
+.admin-slogan h2 {
+    font-size: 2em;           
+    font-weight: 700;          
+    text-align: center;        
+    color: #fff;              
+  
+  }
+  
+
+  .admin-slogan p {
+    font-size: 1.2em;        
+    font-weight: 300;         
+    color: #fff;             
+    text-align: center;       
+    max-width: 600px;         
+    margin: 0 auto;         
+    padding: 0.5em 0;         
+  }
+  
+  
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+  }
+  
+  .logo {
+    font-size: 2em;
+    background: linear-gradient(to right, #880e4f, #f44336); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+  }
+  
+  .nav-list {
+    list-style: none; 
+    display: flex;
+    gap: 1.5em; 
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: 1px solid #fff; 
+    border-radius: 5px;
+    transition: background-color 0.3s; 
+  }
+  
+  .nav-list a:hover {
+    background-color: #fff;
+    color: #000; 
+  }
+  
+  .hero {
+    background: linear-gradient(to right, #880e4f, #f44336);
+    color: #fff;
+    text-align: center;
+    padding: 4em 1em;
+    animation: fadeIn 2s ease-out;
+  }
+  
+  .hero-content h2 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+  }
+  
+  .services {
+    padding: 4em 1em; 
+    text-align: center;
+    background: linear-gradient(to right, #880e4f, #f44336);
+  }
+  
+  .container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    flex-wrap: wrap; 
+  }
+  
+  .service-item {
+    background-color: #000000;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 2em; 
+    margin: 1em;
+    flex: 1 1 calc(45% - 2em); 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  footer {
+    background: #000000;
+    padding: 1em 0; 
+    color: #fff; 
+    text-align: center;
+  }
+  
+  .footer-content {
+    margin: 0 auto;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
